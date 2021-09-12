@@ -1,0 +1,116 @@
+body,html{
+    height: 100%;
+    margin: 1;
+    font-size: 16px;
+    font-family: "Lato",sans-serif;
+    font-weight: 400;
+    line-height: 2.0em;
+    color: black
+}
+.img1{
+    background-image:url(inspirational-abstract-photography-foil-reflection-1200-1-1024x683.webp);
+    min-height:100%
+}
+.img2{
+    background-image:url(abstractphoto.jpg);
+    min-height:200px
+}
+.img3{
+    background-image:url(abstractphoto.jpg);
+    min-height:100%;
+}
+.img4{
+    background-image:url(Famous-Abstract-Art-Featured.jpg);
+    min-height:200px
+}
+.img5{
+    background-image:url(inspirational-abstract-photography-foil-reflection-1200-1-1024x683.webp);
+    min-height:100%
+}
+.img6{
+    background-image:url(images.jpg);
+    min-height:100%
+}
+.img7{
+    background-image:url(images-1.jpg);
+    min-height:200px;
+}
+.img1,.img2,.img3,.img4,.img5,.img6,.img7{
+    position:relative;
+    opacity:0.70;
+    background-position:center;
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+}
+.section{
+    text-align:center;
+    padding:60px;
+}
+.section-dark{
+    background-color: rgb(66, 76, 82);
+    color:whitesmoke
+}
+.section-light{
+    background-color: rgb(255, 255, 255);
+    color:rgb(17, 9, 4)
+}
+.ptext{
+    position:absolute;
+    top:50%;
+    width:100%;
+    text-align:center;
+    color:black;
+    background-color: cornsilk;
+    font-size:28px;
+    letter-spacing: 7px;
+    text-transform:uppercase;
+}
+
+.container p{
+    text-transform: uppercase;
+    text-align: center;
+    font-size:45px;
+    margin-bottom:20px;
+    letter-spacing:1px;
+}
+
+.details,.subject,.message{
+    width:100%;
+    text-transform: uppercase;
+    text-align: center;
+    padding:20px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing:border-box;
+    margin-bottom:25px;
+    border:2px, solid black;
+    font-size:14px;
+    border-radius:5px;
+    transition: all 0.5s ease;
+}
+
+.message .area{
+    height: 200px
+}
+
+.button{
+    width:200px;
+    background:black;
+    height:50px;
+    text-align:center;
+    line-height:50px;
+    text-transform:uppercase;
+    cursor:pointer;
+}
+
+::-webkit- input-placeholder{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+::-moz- input-placeholder{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+::-webkit- input-placeholder{
+    font-family:Arial, Helvetica, sans-serif;
+}
